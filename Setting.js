@@ -49,7 +49,7 @@ module.exports = {
   OPENAI_API_KEY: process.env.OPENAI_API_KEY ||'' ,
   VERSION: process.env.VERSION || 'V.4.5.0',
   LANG: process.env.THEME|| 'Asta_Md',
-  menu : process.env.MENU || '',
+  menu : process.env.MENU || '.',
   WORKTYPE: process.env.WORKTYPE || 'private'
 };
 
